@@ -1,0 +1,44 @@
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.header {
+  background-color: #fff;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CSS for a fixed footer */
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: rgb(47, 44, 44);
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  display: grid;
+  justify-content: center;
+  padding-top: 20px;
+}
