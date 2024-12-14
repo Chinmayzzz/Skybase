@@ -1,44 +1,123 @@
-.logo {
-  height: 100px;
-  width: 100px;
-}
-.header {
-  background-color: #fff;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-/* CSS for a fixed footer */
-.fixed-footer {
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  min-height: 100%;
+  background: #f1f1f1;
+}
+
+header {
   position: fixed;
-  bottom: 0;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-color: #fff;
-  color: rgb(47, 44, 44);
-  text-align: center;
-  padding: 10px 0;
   display: flex;
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  align-items: center;
+  padding: 40px 100px;
+  transition: 0.6s;
+  z-index: 1000000;
 }
 
-.nav-section {
+header.sticky {
+  background: #fff;
+  padding: 5px 100px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.6s;
+  letter-spacing: 2px;
+  font-weight: 500px;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.logofooter {
+  width: 75px;
+  height: 75px;
+}
+
+header.sticky ul li a {
+  color: #000;
+}
+
+footer {
+  margin-top: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  height: 20%;
   display: flex;
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  align-items: center;
+}
+
+footer div ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer div ul li {
+  position: relative;
+  list-style: none;
+}
+
+footer div ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.6s;
+  letter-spacing: 2px;
+  font-weight: 500px;
 }
 
 .contact {
-  display: grid;
+  display: flex;
   justify-content: center;
-  padding-top: 20px;
+  align-items: center;
+  flex-direction: column;
 }
