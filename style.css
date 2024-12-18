@@ -57,7 +57,7 @@ h1 {
   line-height: 150%;
   color: #cdf5fd;
   padding-top: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 /*About Us*/
@@ -154,7 +154,7 @@ header {
 }
 
 header.sticky {
-  background: #fff;
+  background: #cdf5fd;
   padding: 5px 100px;
   color: #fff;
 }
