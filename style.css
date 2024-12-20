@@ -1,6 +1,6 @@
 .logo {
   height: 100px;
-  width: 100px;
+  width: 130px;
 }
 
 .section {
@@ -188,10 +188,10 @@ header ul li a {
   background-size: cover;
 }
 
-.logo {
+/* .logo {
   width: 75px;
   height: 75px;
-}
+} */
 
 header.sticky ul li a {
   color: #000;
